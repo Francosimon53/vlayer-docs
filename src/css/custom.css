@@ -1,0 +1,107 @@
+/**
+ * vlayer Documentation - Custom CSS
+ * Colors based on vlayer brand guidelines
+ */
+
+:root {
+  --ifm-color-primary: #0066CC;
+  --ifm-color-primary-dark: #005bb8;
+  --ifm-color-primary-darker: #0056ad;
+  --ifm-color-primary-darkest: #00478f;
+  --ifm-color-primary-light: #0071e0;
+  --ifm-color-primary-lighter: #0076eb;
+  --ifm-color-primary-lightest: #1a85ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 204, 0.1);
+
+  /* Secondary colors */
+  --vlayer-secondary: #10B981;
+  --vlayer-accent: #7C3AED;
+  --vlayer-warning: #F59E0B;
+  --vlayer-error: #EF4444;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4da3ff;
+  --ifm-color-primary-dark: #2e91ff;
+  --ifm-color-primary-darker: #1f88ff;
+  --ifm-color-primary-darkest: #0070f0;
+  --ifm-color-primary-light: #6cb5ff;
+  --ifm-color-primary-lighter: #7bbeff;
+  --ifm-color-primary-lightest: #a3d4ff;
+  --docusaurus-highlighted-code-line-bg: rgba(77, 163, 255, 0.2);
+}
+
+/* Custom navbar styling */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* Admonitions */
+.alert--success {
+  --ifm-alert-background-color: rgba(16, 185, 129, 0.1);
+  --ifm-alert-border-color: #10B981;
+}
+
+.alert--warning {
+  --ifm-alert-background-color: rgba(245, 158, 11, 0.1);
+  --ifm-alert-border-color: #F59E0B;
+}
+
+.alert--danger {
+  --ifm-alert-background-color: rgba(239, 68, 68, 0.1);
+  --ifm-alert-border-color: #EF4444;
+}
+
+/* Sidebar */
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(0, 102, 204, 0.1);
+}
+
+/* Tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+th {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+[data-theme='dark'] th {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Feature cards on homepage */
+.feature-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Terminal styling */
+.terminal {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'Monaco', 'Menlo', monospace;
+}
+
+.terminal-prompt {
+  color: #10B981;
+}
+
+.terminal-output {
+  color: #d4d4d4;
+}
