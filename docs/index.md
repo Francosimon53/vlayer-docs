@@ -18,6 +18,14 @@ vlayer automatically analyzes your code for:
 - **Access Control** - Finds authentication bypasses and permission issues
 - **Data Retention** - Flags improper data deletion practices
 
+## Try It Now
+
+**No installation required!** Try vlayer directly in your browser:
+
+[![Try in Playground](https://img.shields.io/badge/Try%20in-Playground-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz48L3N2Zz4=)](https://playground-sandy-gamma.vercel.app)
+
+Paste your code and instantly see HIPAA compliance issues with detailed remediation guidance.
+
 ## Quick Example
 
 ```bash
@@ -47,7 +55,9 @@ Building healthcare software requires strict compliance with HIPAA regulations. 
 
 ## Getting Started
 
-Ready to start scanning? Follow our [Installation Guide](./installation) to set up vlayer in your project.
+- **[Try the Playground](https://playground-sandy-gamma.vercel.app)** - Test vlayer in your browser instantly
+- **[Installation Guide](./installation)** - Set up vlayer in your project
+- **[Quick Start](./quick-start)** - Run your first scan in 5 minutes
 
 ## Support
 

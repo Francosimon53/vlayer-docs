@@ -61,7 +61,12 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://vlayer.dev',
+          href: 'https://playground-sandy-gamma.vercel.app',
+          label: '▶ Playground',
+          position: 'left',
+        },
+        {
+          href: 'https://website-nu-tawny-89.vercel.app',
           label: 'Website',
           position: 'right',
         },
@@ -110,8 +115,12 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Resources',
           items: [
+            {
+              label: 'Playground',
+              href: 'https://playground-sandy-gamma.vercel.app',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/vlayer/verification-layer',
