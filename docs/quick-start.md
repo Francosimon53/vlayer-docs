@@ -114,12 +114,21 @@ vlayer scan . --category encryption
 vlayer scan . --category phi,encryption,audit
 ```
 
-Available categories:
-- `phi` - PHI exposure detection
-- `encryption` - Encryption standards
-- `audit` - Audit logging
-- `access` - Access control
-- `retention` - Data retention
+Available categories (12 total):
+- `phi` - PHI exposure detection (28 rules)
+- `encryption` - Encryption standards (18 rules)
+- `audit` - Audit logging (15 rules)
+- `access` - Access control (24 rules)
+- `retention` - Data retention (12 rules)
+- `network` - Network segmentation (14 rules)
+- `mfa` - Multi-factor authentication (8 rules)
+- `incident` - Incident response (10 rules)
+- `vulnerability` - Vulnerability management (11 rules)
+- `asset` - Asset inventory (9 rules)
+- `session` - Session management (8 rules)
+- `third-party` - Third-party risk (6 rules)
+
+**Total: 163+ detection rules**
 
 ## Auto-Fix Mode
 

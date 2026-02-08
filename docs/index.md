@@ -6,48 +6,67 @@ title: Introduction
 
 # vlayer Documentation
 
-**vlayer** (Verification Layer) is an open-source CLI tool that scans your codebase for HIPAA compliance issues. It helps healthcare software developers identify and fix potential violations before they become problems.
+**vlayer** (Verification Layer) is a CLI tool and platform that scans your codebase for HIPAA compliance issues. 163+ detection rules that catch PHI exposures, missing encryption, and access control gaps before they reach production. HIPAA 2026 ready - 15/15 requirements covered.
 
 ## What is vlayer?
 
-vlayer automatically analyzes your code for:
+vlayer automatically analyzes your code across **12 categories** with **163+ detection rules**:
 
-- **PHI Exposure** - Detects hardcoded Social Security numbers, medical record numbers, dates of birth, and other protected health information
-- **Encryption Standards** - Identifies weak cryptographic algorithms and missing encryption
-- **Audit Logging** - Verifies proper logging of PHI access
-- **Access Control** - Finds authentication bypasses and permission issues
-- **Data Retention** - Flags improper data deletion practices
+- **PHI Exposure** (28 rules) - Detects SSN, MRN, DOB, diagnosis codes, and other PHI patterns
+- **Encryption Standards** (18 rules) - Identifies weak crypto (MD5, DES) and missing TLS
+- **Audit Logging** (15 rules) - Verifies proper logging of PHI access and operations
+- **Access Control** (24 rules) - Finds SQL injection, XSS, CORS issues, hardcoded credentials
+- **Data Retention** (12 rules) - Flags improper data deletion and retention policies
+- **Network Segmentation** (14 rules) - Missing network isolation, insecure endpoints
+- **Multi-Factor Auth** (8 rules) - Weak authentication, missing MFA
+- **Incident Response** (10 rules) - Missing IRP, unmonitored security events
+- **Vulnerability Management** (11 rules) - Unpatched dependencies, known CVEs
+- **Asset Inventory** (9 rules) - Undocumented PHI storage, shadow IT
+- **Session Management** (8 rules) - Weak session configs, missing timeouts
+- **Third-Party Risk** (6 rules) - Unsafe vendor integrations, missing BAAs
 
-## Try It Now
+## 🎯 HIPAA 2026 Ready
 
-**No installation required!** Try vlayer directly in your browser:
+vlayer covers **all 15** new HIPAA Security Rule (NPRM 2026) requirements:
+- Network Segmentation, Encryption Standards, Multi-Factor Auth
+- Audit Log Monitoring, Incident Response, Vulnerability Scanning
+- Asset Inventory, Access Controls, Data Minimization
+- Secure Configuration, Patch Management, Risk Assessments
+- Business Continuity, Security Training, Third-Party Risk
 
-[![Try in Playground](https://img.shields.io/badge/Try%20in-Playground-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz48L3N2Zz4=)](https://playground-sandy-gamma.vercel.app)
-
-Paste your code and instantly see HIPAA compliance issues with detailed remediation guidance.
-
-## Quick Example
+## Quick Start
 
 ```bash
-# Install vlayer
+# Install globally
 npm install -g verification-layer
 
-# Scan your project
-vlayer scan ./my-healthcare-app
+# Or use with npx (no install needed)
+npx vlayer scan ./src
 
-# Generate an HTML report
-vlayer scan ./my-healthcare-app -f html -o report.html
+# Scan with HTML report
+npx vlayer scan ./src -f html -o report.html
+
+# Check compliance score (0-100)
+npx vlayer score ./src
+
+# Auto-fix issues
+npx vlayer scan ./src --fix
 ```
 
 ## Why vlayer?
 
 Building healthcare software requires strict compliance with HIPAA regulations. Manual code reviews are time-consuming and error-prone. vlayer automates this process, catching issues early in development when they're cheapest to fix.
 
-### Key Benefits
+### Key Features
 
-| Feature | Benefit |
-|---------|---------|
-| **Automated Scanning** | Catch issues in seconds, not hours |
+| Feature | Description |
+|---------|-------------|
+| **163+ Detection Rules** | Comprehensive coverage across 12 HIPAA categories |
+| **Compliance Score (0-100)** | Track your HIPAA readiness over time |
+| **Training Module** | 10 modules, 45+ questions, verifiable certificates |
+| **HIPAA Templates** | 5 production-ready policy documents (IRP, BAA, NPP, etc.) |
+| **CI/CD Integration** | GitHub Actions, pre-commit hooks, PR comments |
+| **Pro Dashboard** | Historical scans, team management at [app.vlayer.app](https://app.vlayer.app) |
 | **CI/CD Integration** | Block non-compliant code automatically |
 | **Detailed Reports** | Get actionable remediation guidance |
 | **HIPAA References** | Learn which regulations apply |
