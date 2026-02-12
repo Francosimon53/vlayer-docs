@@ -74,7 +74,7 @@ Building healthcare software requires strict compliance with HIPAA regulations. 
 
 ## Getting Started
 
-- **[Try the Playground](https://playground-sandy-gamma.vercel.app)** - Test vlayer in your browser instantly
+- **[Try the Playground](https://play.vlayer.app)** - Test vlayer in your browser instantly
 - **[Installation Guide](./installation)** - Set up vlayer in your project
 - **[Quick Start](./quick-start)** - Run your first scan in 5 minutes
 
@@ -82,4 +82,4 @@ Building healthcare software requires strict compliance with HIPAA regulations. 
 
 - **GitHub Issues**: [Report bugs and request features](https://github.com/vlayer/verification-layer/issues)
 - **Discord**: [Join our community](https://discord.gg/vlayer)
-- **Email**: support@vlayer.dev
+- **Email**: support@vlayer.app

@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://docs.vlayer.dev',
+  url: 'https://docs.vlayer.app',
   baseUrl: '/',
 
   organizationName: 'vlayer',
@@ -61,12 +61,12 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://playground-sandy-gamma.vercel.app',
+          href: 'https://play.vlayer.app',
           label: '▶ Playground',
           position: 'left',
         },
         {
-          href: 'https://website-nu-tawny-89.vercel.app',
+          href: 'https://vlayer.app',
           label: 'Website',
           position: 'right',
         },
@@ -119,7 +119,7 @@ const config: Config = {
           items: [
             {
               label: 'Playground',
-              href: 'https://playground-sandy-gamma.vercel.app',
+              href: 'https://play.vlayer.app',
             },
             {
               label: 'GitHub',
