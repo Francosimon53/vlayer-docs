@@ -128,7 +128,7 @@ Available categories (12 total):
 - `session` - Session management (8 rules)
 - `third-party` - Third-party risk (6 rules)
 
-**Total: 163+ detection rules**
+**Total: 140+ detection rules**
 
 ## Auto-Fix Mode
 

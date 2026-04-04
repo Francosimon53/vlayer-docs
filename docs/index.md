@@ -6,11 +6,11 @@ title: Introduction
 
 # vlayer Documentation
 
-**vlayer** (Verification Layer) is a CLI tool and platform that scans your codebase for HIPAA compliance issues. 163+ detection rules that catch PHI exposures, missing encryption, and access control gaps before they reach production. HIPAA 2026 ready - 15/15 requirements covered.
+**vlayer** (Verification Layer) is a CLI tool and platform that scans your codebase for HIPAA compliance issues. 140+ detection rules that catch PHI exposures, missing encryption, and access control gaps before they reach production. HIPAA 2026 ready - 15/15 requirements covered.
 
 ## What is vlayer?
 
-vlayer automatically analyzes your code across **12 categories** with **163+ detection rules**:
+vlayer automatically analyzes your code across **17 scanners mapped to 5 HIPAA compliance categories** with **140+ detection rules**:
 
 - **PHI Exposure** (28 rules) - Detects SSN, MRN, DOB, diagnosis codes, and other PHI patterns
 - **Encryption Standards** (18 rules) - Identifies weak crypto (MD5, DES) and missing TLS
@@ -61,7 +61,7 @@ Building healthcare software requires strict compliance with HIPAA regulations. 
 
 | Feature | Description |
 |---------|-------------|
-| **163+ Detection Rules** | Comprehensive coverage across 12 HIPAA categories |
+| **140+ Detection Rules** | Comprehensive coverage across 12 HIPAA categories |
 | **Compliance Score (0-100)** | Track your HIPAA readiness over time |
 | **Training Module** | 10 modules, 45+ questions, verifiable certificates |
 | **HIPAA Templates** | 5 production-ready policy documents (IRP, BAA, NPP, etc.) |

@@ -14,7 +14,7 @@ vlayer offers three tiers to fit your team's needs, from individual developers t
 Perfect for individual developers and open source projects.
 
 **What's included:**
-- ✅ Full CLI scanner with 163+ detection rules
+- ✅ Full CLI scanner with 140+ detection rules
 - ✅ All 12 compliance categories
 - ✅ Compliance scoring (0-100)
 - ✅ HTML, JSON, and Markdown reports
@@ -80,7 +80,7 @@ For large healthcare organizations with advanced compliance needs.
 
 | Feature | Open Source | Pro | Enterprise |
 |---------|------------|-----|------------|
-| **Detection Rules** | 163+ | 163+ | 163+ (+ Custom) |
+| **Detection Rules** | 140+ | 140+ | 140+ (+ Custom) |
 | **Compliance Categories** | 12 | 12 | 12 (+ Custom) |
 | **CLI Scanner** | ✅ | ✅ | ✅ |
 | **Compliance Score (0-100)** | ✅ | ✅ | ✅ |
