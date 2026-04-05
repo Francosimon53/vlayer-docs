@@ -80,6 +80,6 @@ Building healthcare software requires strict compliance with HIPAA regulations. 
 
 ## Support
 
-- **GitHub Issues**: [Report bugs and request features](https://github.com/vlayer/verification-layer/issues)
+- **GitHub Issues**: [Report bugs and request features](https://github.com/Francosimon53/verification-layer/issues)
 - **Discord**: [Join our community](https://discord.gg/vlayer)
 - **Email**: support@vlayer.app

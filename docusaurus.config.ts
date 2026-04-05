@@ -30,7 +30,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/vlayer/verification-layer/tree/main/docs/',
+          editUrl: 'https://github.com/Francosimon53/verification-layer/tree/main/docs/',
           routeBasePath: '/',
         },
         blog: false,
@@ -71,7 +71,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/vlayer/verification-layer',
+          href: 'https://github.com/Francosimon53/verification-layer',
           label: 'GitHub',
           position: 'right',
         },
@@ -123,7 +123,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/vlayer/verification-layer',
+              href: 'https://github.com/Francosimon53/verification-layer',
             },
             {
               label: 'Discord',
